@@ -1,0 +1,7 @@
+# Pastas e arquivos para ignorar
+/vendor/
+/node_modules/
+/.env
+.DS_Store
+Thumbs.db
+*.log
