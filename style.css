@@ -1,0 +1,135 @@
+style.css/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+/* Agendamento */
+#agendamento {
+    background-color: #f0e6f6;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#agendamento h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+#agendamento .button {
+    background-color: #ab8ce4;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+#contato {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contato .button {
+    background-color: #25d366;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.mensagem {
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    background-color: #28a745; /* Verde para sucesso */
+    border-radius: 5px;
+    text-align: center;
+}
+
+.mensagem.erro {
+    background-color: #dc3545; /* Vermelho para erro */
+}
+/* Adicionando uma margem entre os campos do formulário */
+.campo {
+    margin-bottom: 15px;
+}
+
+/* Alinhamento de rótulos e campos */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Estilo dos campos de entrada */
+input, select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Estilo do botão */
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo do botão ao passar o mouse */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo da mensagem de erro */
+#erroData {
+    font-size: 14px;
+    color: red;
+}
