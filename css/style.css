@@ -10994,6 +10994,24 @@ header.masthead h1, header.masthead .h1 {
   opacity: 1;
 }
 
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: inline-block;
+  background-color: #343a40;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 50%;
+  text-align: center;
+  z-index: 1000;
+}
+.scroll-to-top:hover {
+  background-color: #495057;
+  color: white;
+  text-decoration: none;
+}
+
 /* style.css/* Estilos gerais */
 /* body {
     font-family: Arial, sans-serif;

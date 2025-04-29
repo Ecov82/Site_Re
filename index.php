@@ -18,6 +18,8 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link rel="stylesheet" href="css/style.css">
 
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -31,6 +33,8 @@
                         <li class="nav-item"><a class="nav-link" href="#services">Serviços</a></li>
                         <li class="nav-item"><a class="nav-link" href="#portfolio">Portfólio</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#regras-atendimento">Regras de Atendimento</a></li>
+
                     </ul>
                 </div>
             </div>
@@ -173,7 +177,7 @@
     <div class="container px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5 justify-content-center">
             <div class="col-lg-8 col-xl-6 text-center">
-                <h2 class="mt-0">Vamos Conectar!</h2>
+                <h2 class="mt-0">Vamos Conversar?</h2>
                 <hr class="divider" />
                 <p class="text-muted mb-5">Quer cílios perfeitos e um atendimento exclusivo? Envie uma mensagem e responderemos em breve!</p>
             </div>
@@ -223,37 +227,61 @@
         </div>
     </div>
 </section>
-       <!-- Footer-->
-<footer class="bg-light py-5">
+<?php
+// Inclui o arquivo que contém as regras
+include 'RegrasAtendimento.php';
+?>
+
+<section id="regras-atendimento" class="py-5 bg-light">
     <div class="container px-4 px-lg-5">
-        <div class="small text-center text-muted">Copyright &copy; 2025 - [Ecov82]</div>
+        <h2 class="text-center mb-4">Regras de Atendimento</h2>
+        <ul class="list-group">
+            <?php foreach ($regras_atendimento as $regra): ?>
+                <li class="list-group-item"><?php echo $regra; ?></li>
+            <?php endforeach; ?>
+        </ul>
+    </div>
+</section>
+
+  <!-- Footer -->
+<footer class="bg-light py-5 text-center">
+    <div class="container px-4 px-lg-5">
+        <!-- Redes sociais -->
+        <ul class="list-inline mb-4">
+            <li class="list-inline-item">
+                <a class="social-link rounded-circle text-dark mx-2" href="https://www.facebook.com/share/1PUhDBj7sf" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a class="social-link rounded-circle text-dark mx-2" href="https://www.instagram.com/cilios_dare?igsh=dHh0bWJ3dzdzZXlu" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+            <!-- <li class="list-inline-item">
+                <a class="social-link rounded-circle text-dark mx-2" href="https://github.com/Ecov82" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li> -->
+            <li class="list-inline-item">
+                <a class="social-link rounded-circle text-dark mx-2" href="https://wa.me/5543984597334" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </li>
+        </ul>
+
+        <!-- Copyright -->
+        <div class="small text-muted">
+            &copy; 2025 - Ecov82
+        </div>
     </div>
 </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- SimpleLightbox plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+<a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+     
     </body>
 </html>
 
-<?php
-// Inclui as regras de atendimento
-include 'regras_atendimento.php';  
 
-// Exibe as regras de atendimento
-echo "<h2>Regras de Atendimento:</h2><ul>";
-foreach ($regras_atendimento as $regra) {
-    echo "<li>" . $regra . "</li>";
-}
-echo "</ul>";
-?>
 
 <!-- root	127.0.0.1
 root	::1
