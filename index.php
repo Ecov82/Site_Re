@@ -104,59 +104,65 @@
         </div>
     </div>
 </section>
-        <!-- Portfolio-->
+     <!-- Portfolio -->
 <div id="portfolio">
     <div class="container-fluid p-0">
         <div class="row g-0">
+            <!-- Cílios Clássicos -->
             <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box" href="assets/img/portfolio/fullsize/1.jpg" title="Cílios Clássicos">
-                    <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="Cílios Clássicos" />
+                <a class="portfolio-box" href="assets/img/portfolio/Cilios-Portifolios/CiliosNatural.jpg" title="Cílios Clássicos">
+                    <img class="img-fluid w-100" src="assets/img/portfolio/Cilios-Portifolios/CiliosNatural.jpg" alt="Cílios Clássicos">
                     <div class="portfolio-box-caption">
                         <div class="project-category text-white-50">Volume Natural</div>
                         <div class="project-name">Cílios Clássicos</div>
                     </div>
                 </a>
             </div>
+            <!-- Volume Brasileiro -->
             <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box" href="assets/img/portfolio/fullsize/2.jpg" title="Cílios Volume Brasileiro">
-                    <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="Cílios Volume Brasileiro" />
+                <a class="portfolio-box" href="assets/img/portfolio/Cilios-Portifolios/VolumeBrasileiro.jpg" title="Cílios Volume Brasileiro">
+                    <img class="img-fluid w-100" src="assets/img/portfolio/Cilios-Portifolios/VolumeBrasileiro.jpg" alt="Cílios Volume Brasileiro">
                     <div class="portfolio-box-caption">
                         <div class="project-category text-white-50">Dramático</div>
                         <div class="project-name">Volume Brasileiro</div>
                     </div>
                 </a>
             </div>
+            <!-- Cílios Híbridos -->
             <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box" href="assets/img/portfolio/fullsize/3.jpg" title="Cílios Híbridos">
-                    <img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" alt="Cílios Híbridos" />
+                <a class="portfolio-box" href="assets/img/portfolio/Cilios-Portifolios/Hibrido.jpg" title="Cílios Híbridos">
+                    <img class="img-fluid w-100" src="assets/img/portfolio/Cilios-Portifolios/Hibrido.jpg" alt="Cílios Híbridos">
                     <div class="portfolio-box-caption">
                         <div class="project-category text-white-50">Equilíbrio Perfeito</div>
                         <div class="project-name">Cílios Híbridos</div>
                     </div>
                 </a>
             </div>
+            <!-- Mega Volume -->
             <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box" href="assets/img/portfolio/fullsize/4.jpg" title="Cílios Mega Volume">
-                    <img class="img-fluid" src="assets/img/portfolio/thumbnails/4.jpg" alt="Cílios Mega Volume" />
+                <a class="portfolio-box" href="assets/img/portfolio/Cilios-Portifolios/extensao-de-cilios-mega-volume.jpg" title="Cílios Mega Volume">
+                    <img class="img-fluid w-100" src="assets/img/portfolio/Cilios-Portifolios/extensao-de-cilios-mega-volume.jpg" alt="Cílios Mega Volume">
                     <div class="portfolio-box-caption">
                         <div class="project-category text-white-50">Impactante</div>
                         <div class="project-name">Mega Volume</div>
                     </div>
                 </a>
             </div>
+            <!-- Fio a Fio -->
             <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box" href="assets/img/portfolio/fullsize/5.jpg" title="Cílios Fio a Fio">
-                    <img class="img-fluid" src="assets/img/portfolio/thumbnails/5.jpg" alt="Cílios Fio a Fio" />
+                <a class="portfolio-box" href="assets/img/portfolio/Cilios-Portifolios/FioaFio.jpeg" title="Cílios Fio a Fio">
+                    <img class="img-fluid w-100" src="assets/img/portfolio/Cilios-Portifolios/FioaFio.jpeg" alt="Cílios Fio a Fio">
                     <div class="portfolio-box-caption">
                         <div class="project-category text-white-50">Naturalidade</div>
                         <div class="project-name">Fio a Fio</div>
                     </div>
                 </a>
             </div>
+            <!-- Design Personalizado -->
             <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box" href="assets/img/portfolio/fullsize/6.jpg" title="Design Personalizado">
-                    <img class="img-fluid" src="assets/img/portfolio/thumbnails/6.jpg" alt="Design Personalizado" />
-                    <div class="portfolio-box-caption p-3">
+                <a class="portfolio-box" href="assets/img/portfolio/Cilios-Portifolios/Personalizado.jpeg" title="Design Personalizado">
+                    <img class="img-fluid w-100" src="assets/img/portfolio/Cilios-Portifolios/Personalizado.jpeg" alt="Design Personalizado">
+                    <div class="portfolio-box-caption">
                         <div class="project-category text-white-50">Exclusivo</div>
                         <div class="project-name">Design Sob Medida</div>
                     </div>
@@ -165,6 +171,7 @@
         </div>
     </div>
 </div>
+
        <!-- Call to action-->
 <section class="page-section bg-dark text-white">
     <div class="container px-4 px-lg-5 text-center">
@@ -217,8 +224,10 @@
         </div>
         <div class="row gx-4 gx-lg-5 justify-content-center">
             <div class="col-lg-4 text-center mb-5 mb-lg-0">
-                <i class="bi-phone fs-2 mb-3 text-muted"></i>
-                <div>(43) 984597334</div>
+                <a href="https://wa.me/5543984597334" target="_blank" class="text-decoration-none text-dark">
+                    <i class="bi-phone fs-2 mb-3 text-muted"></i>
+                    <div>(43) 98459-7334</div>
+                </a>
             </div>
             <div class="col-lg-4 text-center mb-5 mb-lg-0">
                 <i class="bi-envelope fs-2 mb-3 text-muted"></i>
