@@ -35,6 +35,7 @@
                         <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>
                         <li class="nav-item"><a class="nav-link" href="#regras-atendimento">Regras de Atendimento</a></li>
 
+
                     </ul>
                 </div>
             </div>
@@ -286,7 +287,8 @@ include 'RegrasAtendimento.php';
     </div>
 </footer>
 <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
-     
+  <!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>   
     </body>
 </html>
 
